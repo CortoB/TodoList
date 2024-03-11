@@ -23,6 +23,7 @@ const Input = (props) => {
 
     return (
         <div>
+            sss
             <input onChange={handleOnChange} type="text" placeholder={props.placeholder} />
             <Button onClick={handleOnClick} text={"Submit"} className="submitButton" />
             {list.length > 0 && (
